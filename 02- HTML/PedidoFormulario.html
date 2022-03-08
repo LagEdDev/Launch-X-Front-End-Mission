@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Pastelazo</title>
+</head>
+<body>
+    <h1>Elige los componentes de tu Pastelazo</h1>
+
+    <form action="">
+        <label for="Name">El Pastelazo será para</label>
+        <br>
+        <input type="text" id="Name" name="Name" placeholder="Pastelito Pérez">
+        <br> <br>
+        <label for="Email">Escribe tu e-mail</label>
+        <br>
+        <input type="email" id="Email" name="Email" placeholder="pastelito@pastelazo.com">
+        <br> <br>
+        <label for="Phone">¿A qué número te podemos llamar?</label>
+        <br>
+        <input type="tel" id="Phone" name="Phone" placeholder="8004332000" maxlength="10">
+        <br><br>
+        <label for="Description">Descríbenos a detalle tu Pastelazo</label>
+        <br>
+        <textarea rows="5" cols="40" id="Description" name="Description" placeholder="Quiero bla, bla, bla..."></textarea>
+        <br><br>
+
+        <h3>Selecciona el sabor de tu Pastelazo (máx. 2 sabores)</h3>
+
+        <input type="checkbox" name="Chocolate" id="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+        <br>
+        <input type="checkbox" name="Vainilla" id="Vainilla">
+        <label for="Vainilla">Vainilla</label>
+        <br>
+        <input type="checkbox" name="Fresa" id="Fresa">
+        <label for="Fresa">Fresa</label>
+        <br>
+        <input type="checkbox" name="3Leches" id="3Leches">
+        <label for="3Leches">3 Leches</label>
+        <br>
+        <input type="checkbox" name="Oreo" id="Oreo">
+        <label for="Oreo">Oreo</label>
+
+        <h3>Selecciona los adornos de tu Pastelazo (máx. 3 adornos)</h3>
+
+        <input type="checkbox" name="Fruta" id="Fruta">
+        <label for="Fruta">Fruta</label>
+        <select id="FrutaType" name="FrutaType">
+            <option value="Durazno">Durazno</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Uva">Uva</option>
+            <option value="Mango">Mango</option>
+        </select>
+        <br>
+        <input type="checkbox" name="CremasEspeciales" id="CremasEspeciales">
+        <label for="CremasEspeciales">Cremas especiales</label>
+        <select id="CremaType" name="CremaType">
+            <option value="Chantilly">Chantilly</option>
+            <option value="CremaBatida">Crema batida</option>
+            <option value="CremaFrutal">Crema Frutal</option>
+            <option value="CremaVegetariana">Crema Vegetariana</option>
+        </select>
+        <br>
+        <input type="checkbox" name="Galleta" id="Galleta">
+        <label for="Galleta">Galleta</label>
+        <select id="GalletaType" name="GalletaType">
+            <option value="Avena">Avena</option>
+            <option value="Chokis">Chokis</option>
+            <option value="Emperador">Emperador</option>
+            <option value="Oreo">Oreo</option>
+        </select>
+        <br>
+        <input type="checkbox" name="Chispas" id="Chispas">
+        <label for="Chispas">Chispas</label>
+        <select id="ChispasType" name="ChispasType">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Vainilla">Vainilla</option>
+            <option value="Confetti">Confetti</option>
+            <option value="M&m">M&m</option>
+        </select>
+
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+</body>
+</html>
