@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunación</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600;700&family=League+Spartan:wght@400;500&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <!--Barra superior-->
+    <div class="Bar">
+        <p class="title">Vacunación</p>
+        <p class="subtitle">Base de datos</p>
+        <p class="subtitle">Educación</p>
+        <p class="subtitle">Noticias</p>
+        <p class="subtitle">Regulaciones</p>
+        <button class="hoaxbutton">Desmentir</button>
+    </div> 
+    <!--Primera sección-->
+    <section class="CalltoAction">
+        <div class="firstsec">
+            <h1 class="title1">Combate el Virus con Vacunas</h1>
+            <p class="description">Detengamos esta pandemia matando al virus con una vacuna, no deje que usted y su familia se infecte</p>
+        </div>
+        <div class="imgnurse">
+            <img src="imgs/nurse.jpg" class="nurse"> 
+        </div>
+        <div class="icono1">
+            <img src="imgs/shield.png" alt="">
+            <p class="desicon">Mejor protección</p>
+        </div>
+        <div class="icono2">
+            <img src="imgs/star.png" alt="">
+            <p>Vacunas seleccionadas</p>
+        </div>
+        <div class="icono3">
+            <img src="imgs/time.png" alt="">
+            <p>Programa tus vacunas</p>
+        </div>
+        <div class="schedule">
+            <form action="">
+                <img src="imgs/maps-and-flags.png" alt="">
+                <label for="Location">Ubicación</label>
+                <select id="Estado" name="Estado">
+                    <option value="CDMX">CDMX</option>
+                </select>
+                <img src="imgs/calendar.png" alt="">
+                <label for="Date">Fecha</label>
+                <input type="date" id="start" name="vaccinedate"
+                value="2021-01-01"
+                min="2021-01-01" max="2022-12-31">
+                <img src="imgs/syringe.png" alt="">
+                <label for="VaccineLabel">Tipo de vacuna</label>
+                <select id="VaccineType" name="VaccineType">
+                    <option value="AstraZeneca">Astra Zeneca</option>
+                    <option value="SinoVac">SinoVac</option>
+                    <option value="Pfizer">Pfizer</option>
+                    <option value="Moderna">Moderna</option>
+                </select>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+    
+    <!--Logos de vacunas-->
+    <section class="logos">
+        <img class="imglogo1" src="imgs/astrazeneca-logo.png" alt="AstraZeneca">
+        <img class="imglogo2" src="imgs/Sinovac-logo.png" alt="SinoVac">
+        <img class="imglogo3" src="imgs/Pfizer-logo.png" alt="Pfizer">
+        <img class="imglogo4" src="imgs/Moderna-logo.jpg" alt="Moderna">
+    </section>   
+        
+    <!--Segunda sección-->  
+    <section class="Benefits">
+        <div class="secondsec">
+            <h2 class="title2">¿Por qué debería vacunarme?</h2>
+            <p class="descripcion2">Para evitar cualquier duda sobre la vacunación contra el COVID-19, identifique estos 4 beneficios de vacuarse: </p>
+        </div>
+        <div class="fact1">
+            <div class="facticon">
+                <img class="facticon" src="imgs/tune.png" alt="">
+            </div>
+              <h3 class="facttitle">Minimiza la propagación del virus</h3>
+              <p class="factdesc">La vacuna ha demostrado ser efectiva en prevenir que alguien se infecte con el Coronavirus</p>
+        </div>
+        <div class="fact2">
+            <div class="facticon">
+                <img class="facticon" src="imgs/shieldBlue.png" alt="">
+            </div>
+              <h3 class="facttitle">Forma anticuerpos</h3>
+              <p class="factdesc">La vacuna ha probado que puede crear anticuerpos que ayudan al sistema inmune</p>
+        </div>
+        <div class="fact3">
+            <div class="facticon">
+                <img class="facticon" src="imgs/user.png" alt="">
+            </div>
+              <h3 class="facttitle">Proteger a las personas cercanas</h3>
+              <p class="factdesc">Uno de los beneficios es que también protege a las personas que nos rodean</p>
+        </div>
+        <div class="fact4">
+            <div class="facticon">
+                <img class="facticon" src="imgs/statistics.png" alt="">
+            </div>
+              <h3 class="facttitle">Crear inmunidad de rebaño</h3>
+              <p class="factdesc">La vacuna también es beneficiosa por crear inmunidad de grupo o de rebaño</p>
+        </div>
+    </section>
+    
+    <!--Tercera sección-->
+    <section class="Preparations">
+      <div class="container">
+        <div class="preparationsInfo">
+          <h2>Preparaciones antes de la vacuna</h2>
+          <p>El éxito de la vacuna es fuertemente influenciada por el estado del sistema inmunlógico. De esta forma,
+            puede tomar ciertas acciones que ayudaran que la vacuna contra el COVID-19 funcione:</p>
+          <ul class="preparationsList">
+            <li>
+              <div class="listHeader">
+                <img src="imgs/sleep.png" alt="sleep icon">
+                <h4>Evite bebidas alcohólicas</h4>
+                <button>▼</button>
+              </div>
+              <p>Ni se le ocurra tomar antes de la vacuna</p>
+              </li>
+            <li>
+              <div class="listHeader">
+                <img src="imgs/cancel.png" alt="cancel icon">
+                <h4>Evite el estrés</h4>
+                <button>▼</button>
+              </div>
+              <p>Manténgase tranquilo antes y después de vacunarse</p>
+            </li>
+            <li>
+              <div class="listHeader">
+                <img src="imgs/statistics.png" alt="stats icon">
+                <h4>Coma sanamente</h4>
+                <button>▼</button>
+              </div>
+              <p>Cuerpo sano, vacuna exitosa</p>
+            </li>
+            <li>
+              <div class="listHeader">
+                <img src="imgs/sleep.png" alt="sleep icon">
+                <h4>Duerma lo suficiente</h4>
+                <button>▼</button>
+              </div>
+              <p>Duerma por lo menos 8 horas, descanse correctamente</p>
+            </li>
+            <li>
+              <div class="listHeader">
+                <img src="imgs/heart-attack.png" alt="heart icon">
+                <h4>Ejercítise o haga activad física</h4>
+                <button>▼</button>
+              </div>
+              <p>El ejercicio reduce el estrés y lo mantiene sano</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--Cuarta sección-->
+    <section class="Contact">
+      <div class="fourthsec">
+        <h2 class="title4">Contacto de emergencia</h2>
+        <p class="description4">Comuníquese a través de los siguientes medios si usted o su 
+        familia se sienten mal y tienen síntomas similares, como los 
+        de Covid-19, asegúrese de cuidarse antes de informarnos:</p>
+      </div>
+      <div>
+        <img src="imgs/guy1.jpg" alt="" class="doctor"> 
+      </div>
+      <div class="call">
+        <div class="iconinfo">
+          <img src="imgs/telephone-call.png" alt="telephone icon">
+          <p class="titlenum1">Llamada</p>
+          <p class="num1">021.123.145.14</p>
+          <button class="btncall">Llamar ahora</button>
+        </div>
+      </div>
+    
+      <div class="chat">
+        <div class="iconinfo">
+          <img src="imgs/chat.png" alt="chat icon">
+        </div>
+        <p class="titlenum2">Chat</p>
+        <p class="num2">021.123.145.14</p>
+        <button class="btnchat">Chatea ahora</button>
+      </div>
+      <div class="video">
+        <div class="iconinfo">
+          <img src="imgs/video-camera.png" alt="video icon">
+        </div>
+        <p class="titlenum3">Videollamada</p>
+        <p class="num3">021.123.145.14</p>
+        <button class="btnvideo">Videollamada ahora</button>
+      </div>
+      <div class="mensaje">
+        <div class="iconinfo">
+          <img src="imgs/email.png" alt="chat icon">
+        </div>
+        <p class="titlenum4">Mensaje</p>
+        <p class="num4">021.123.145.14</p>
+        <button class="btnmensaje">Mensaje ahora</button>
+      </section>
+    </body>
+
+    <!--Pie de página-->
+    <footer>
+      <div class="foot">
+        <h2 class="footertitle">Vacunación</h2>a
+        <p class="info">Nuestro objetivo es ayudar a liberar el mundo de la pandemia </p>
+      </div>
+        <p class="rights">@2022 Vacunación. Todos los derechos reservados</p>
+      <div class="about">
+        <h3 class="abouttitle">Info</h3>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Características</a>
+        <a href="#">Noticias y Blog</a>
+      </div>
+      <div class="company">
+        <h3 class="companytitle">Compañía</h3>
+        <a href="#">¿Cómo trabajamos?</a>
+        <a href="#">Capital</a>
+        <a href="#">Seguridad</a>
+      </div>
+      <div class="support">
+        <h3 class="supporttitle">Soporte</h3>
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Centro de soporte</a>
+        <a href="#">Contáctenos</a>
+      </div>
+      <a href="#">Términos y condiciones</a>
+      <a href="#">Política de privacidad</a>
+    </footer>
+    </html>
